@@ -1,0 +1,54 @@
+[
+    {
+        "name": "msjsdiag.debugger-for-chrome",
+        "version": "4.10.2"
+    },
+    {
+        "name": "peterjausovec.vscode-docker",
+        "version": "0.3.1"
+    },
+    {
+        "name": "dbaeumer.vscode-eslint",
+        "version": "1.6.0"
+    },
+    {
+        "name": "formulahendry.auto-close-tag",
+        "version": "0.5.6"
+    },
+    {
+        "name": "eg2.tslint",
+        "version": "1.0.40"
+    },
+    {
+        "name": "robertohuertasm.vscode-icons",
+        "version": "7.27.0"
+    },
+    {
+        "name": "redhat.vscode-yaml",
+        "version": "0.0.17"
+    },
+    {
+        "name": "eamodio.gitlens",
+        "version": "8.5.6"
+    },
+    {
+        "name": "ms-python.python",
+        "version": "2018.9.0"
+    },
+    {
+        "name": "ms-vscode.cpptools",
+        "version": "0.19.0"
+    },
+    {
+        "name": "ms-vscode.go",
+        "version": "0.6.91"
+    },
+    {
+        "name": "angular.ng-template",
+        "version": "0.1.10"
+    },
+    {
+        "name": "johnpapa.angular2",
+        "version": "6.3.0"
+    }
+]
