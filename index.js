@@ -5,6 +5,7 @@ const cheerio = require('cheerio');
 const semver = require('semver');
 const { filter } = require('bluebird');
 const { promisify } = require('util');
+const { createGunzip } = require('zlib');
 const { createWriteStream, unlink, writeFile } = require('fs');
 
 const extensionsFile = './extensions.json';
@@ -24,7 +25,7 @@ function downloadExtension(extensionName, version = 'latest') {
             const filename = /filename=(.*);/gi.exec(response.headers['content-disposition'])[1];
 
             const file = createWriteStream(`extensions/${filename}`);
-            response.pipe(file);
+            response.pipe(createGunzip()).pipe(file);
 
             file.on('finish', () => {
                 resolve(filename);
